@@ -1,0 +1,1413 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#@smoke"
+          }
+        ],
+        "line": 6,
+        "name": "User can verify Product Arrange In Alphabetical Order",
+        "description": "",
+        "id": "desktops-test;user-can-verify-product-arrange-in-alphabetical-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 234351500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104812200,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:240)\r\n\tat com.tutorialsninja.pages.HomePage.mouseHoverOnDesktopsLinkAndClick(HomePage.java:65)\r\n\tat com.tutorialsninja.steps.TopMenuTestSteps.iMouseHoverOnDesktopsTabAndClick(TopMenuTestSteps.java:21)\r\n\tat ✽.When I Mouse hover on “Desktops” Tab and click(desktoptest.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I Mouse hover on “Desktops” Tab and click",
+            "match": {
+              "location": "TopMenuTestSteps.iMouseHoverOnDesktopsTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I can Select Sort By position Name: Z to A",
+            "match": {
+              "location": "DesktopTestSteps.iCanSelectSortByPositionNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify the Product will arrange in Descending order",
+            "match": {
+              "location": "DesktopTestSteps.verifyTheProductWillArrangeInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User can verify Product Added To Shopping Cart SuccessFully",
+        "description": "",
+        "id": "desktops-test;user-can-verify-product-added-to-shopping-cart-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3611900,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.selectCurrency(HomePage.java:77)\r\n\tat com.tutorialsninja.steps.DesktopTestSteps.iChangeCurrencyToPoundSterling(DesktopTestSteps.java:116)\r\n\tat ✽.When I change currency to Pound Sterling(desktoptest.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I change currency to Pound Sterling",
+            "match": {
+              "location": "DesktopTestSteps.iChangeCurrencyToPoundSterling()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I Mouse hover on “Desktops” Tab and click",
+            "match": {
+              "location": "TopMenuTestSteps.iMouseHoverOnDesktopsTabAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Select Sort By position \"Name: A to Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name: A to Z",
+                  "offset": 25
+                }
+              ],
+              "location": "DesktopTestSteps.selectSortByPosition(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Select product “HP LP3065”",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3065",
+                  "offset": 21
+                }
+              ],
+              "location": "DesktopTestSteps.selectProductHPLP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Verify the Text \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 17
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Select Delivery Date \"2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopTestSteps.selectDeliveryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Enter Qty \"1” using Select class.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                }
+              ],
+              "location": "DesktopTestSteps.enterQtyUsingSelectClass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Click on “Add to Cart” button",
+            "match": {
+              "location": "DesktopTestSteps.clickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Verify the Message “Success: You have added HP LP3065 to your shopping cart!”",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3065",
+                  "offset": 49
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheMessageSuccessYouHaveAddedHPLPToYourShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Click on link “shopping cart” display into success message",
+            "match": {
+              "location": "DesktopTestSteps.clickOnLinkShoppingCartDisplayIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Verify the text \"Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping Cart",
+                  "offset": 17
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheTextInShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Verify the Product name \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 25
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheProductName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Verify the Delivery Date \"2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 26
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheDeliveryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Verify the Model \"Product21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product21",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheModel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Verify the Total \"£74.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£74.73",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopTestSteps.verifyTheTotal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Desktops Test",
+    "description": "As user I want to arrange listing in alphabetical order and verify product added to shopping cart",
+    "id": "desktops-test",
+    "keyword": "Feature",
+    "uri": "desktoptest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify Products Price Display High To Low Successfully",
+        "description": "",
+        "id": "laptops-and-notebooks-test;verify-products-price-display-high-to-low-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4592700,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:240)\r\n\tat com.tutorialsninja.pages.HomePage.mouseHoverOnLaptopsAndNotebooksLinkAndClick(HomePage.java:69)\r\n\tat com.tutorialsninja.steps.LaptopsAndNoteBooksTestSteps.mouseHoverOnLaptopsNotebooksTabAndClick(LaptopsAndNoteBooksTestSteps.java:15)\r\n\tat ✽.When Mouse hover on Laptops \u0026 Notebooks Tab and click(laptopsandnotebooks.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Mouse hover on Laptops \u0026 Notebooks Tab and click",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.mouseHoverOnLaptopsNotebooksTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on “Show All Laptops \u0026 Notebooks”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnShowAllLaptopsNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Select Sort By \"Price (High \u003e Low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (High \u003e Low)",
+                  "offset": 16
+                }
+              ],
+              "location": "LaptopsAndNoteBooksTestSteps.selectSortBy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify the Product price will arrange in High to Low order.",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheProductPriceWillArrangeInHighToLowOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "verify Products Price Display High To Low Successfully",
+        "description": "",
+        "id": "laptops-and-notebooks-test;verify-products-price-display-high-to-low-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3894300,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.selectCurrency(HomePage.java:77)\r\n\tat com.tutorialsninja.steps.DesktopTestSteps.iChangeCurrencyToPoundSterling(DesktopTestSteps.java:116)\r\n\tat ✽.When I change currency to Pound Sterling(laptopsandnotebooks.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I change currency to Pound Sterling",
+            "match": {
+              "location": "DesktopTestSteps.iChangeCurrencyToPoundSterling()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Mouse hover on Laptops \u0026 Notebooks Tab and click",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.mouseHoverOnLaptopsNotebooksTabAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on “Show All Laptops \u0026 Notebooks”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnShowAllLaptopsNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Select Sort By \"Price (High \u003e Low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (High \u003e Low)",
+                  "offset": 16
+                }
+              ],
+              "location": "LaptopsAndNoteBooksTestSteps.selectSortBy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Select Product “MacBook”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.selectProductMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verify the text “MacBook”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheTextMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on ‘Add To Cart’ button",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify the message “Success: You have added MacBook to your shopping cart!”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheMessageSuccessYouHaveAddedMacBookToYourShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on link shopping cart display into success message",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnLinkShoppingCartDisplayIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Verify the text Shopping Cart",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheTextShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Verify the Product name MacBook",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheProductNameMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Change Quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "LaptopsAndNoteBooksTestSteps.changeQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click on “Update” Tab",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnUpdateTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Verify the message “Success: You have modified your shopping cart!”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheMessageSuccessYouHaveModifiedYourShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Verify the Total £737.45",
+            "match": {
+              "arguments": [
+                {
+                  "val": "737",
+                  "offset": 18
+                },
+                {
+                  "val": "45",
+                  "offset": 22
+                }
+              ],
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheTotal£()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Click on “Checkout” button",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Verify the text “Checkout”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheTextCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Verify the Text “New Customer”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheTextNewCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Click on “Guest Checkout” radio button",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnGuestCheckoutRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Click on “Continue” tab",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnContinueTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Fill the mandatory fields",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.fillTheMandatoryFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Click on “Continue” Button",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnContinueButton1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Add Comments About your order into text area",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.addCommentsAboutYourOrderIntoTextArea()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Check the Terms \u0026 Conditions check box",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.checkTheTermsConditionsCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Click on “Continue” button",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.clickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Verify the message “Warning: Payment method required!”",
+            "match": {
+              "location": "LaptopsAndNoteBooksTestSteps.verifyTheMessageWarningPaymentMethodRequired()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Laptops and Notebooks Test",
+    "description": "As user I want to arrange listing in High To Low order and verify product added to shopping cart",
+    "id": "laptops-and-notebooks-test",
+    "keyword": "Feature",
+    "uri": "laptopsandnotebooks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify User Should Navigate To Login Page Successfully",
+        "description": "",
+        "id": "my-accounts-test-for-login-function;verify-user-should-navigate-to-login-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5609900,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.clickOnMyQAccountTab(HomePage.java:88)\r\n\tat com.tutorialsninja.steps.MyAccountRegisterTestSteps.clickOnMyAccountLink1(MyAccountRegisterTestSteps.java:16)\r\n\tat ✽.When Click on My Account Link(myaccountslogin.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click on My Account Link",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Login”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify the text “Returning Customer”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.verifyTheTextReturningCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "verify That User Should Login AndLogout Successfully",
+        "description": "",
+        "id": "my-accounts-test-for-login-function;verify-that-user-should-login-andlogout-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3024400,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.clickOnMyQAccountTab(HomePage.java:88)\r\n\tat com.tutorialsninja.steps.MyAccountRegisterTestSteps.clickOnMyAccountLink1(MyAccountRegisterTestSteps.java:16)\r\n\tat ✽.When Click on My Account Link(myaccountslogin.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Click on My Account Link",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Login”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter Email address",
+            "match": {
+              "location": "MyAccountLoginTestSteps.enterEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter Password on Login page",
+            "match": {
+              "location": "MyAccountLoginTestSteps.enterPasswordOnLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click on Login button",
+            "match": {
+              "location": "MyAccountLoginTestSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on My Account Link.",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Logout”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify the text “Account Logout”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.verifyTheTextAccountLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on Continue button",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnContinueButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Accounts Test for Login function",
+    "description": "As user I want to navigate to Login page and verify user can login and logout successfully",
+    "id": "my-accounts-test-for-login-function",
+    "keyword": "Feature",
+    "uri": "myaccountslogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify User Should Navigate To Register Page Successfully",
+        "description": "",
+        "id": "my-accounts-test-for-register-function;verify-user-should-navigate-to-register-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3897700,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.clickOnMyQAccountTab(HomePage.java:88)\r\n\tat com.tutorialsninja.steps.MyAccountRegisterTestSteps.clickOnMyAccountLink1(MyAccountRegisterTestSteps.java:16)\r\n\tat ✽.When Click on My Account Link(myaccountsregister.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click on My Account Link",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Register”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify the text “Register Account”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.verifyTheTextRegisterAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "verify That User Register Account Successfully",
+        "description": "",
+        "id": "my-accounts-test-for-register-function;verify-that-user-register-account-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6456000,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.tutorialsninja.pages.HomePage.clickOnMyQAccountTab(HomePage.java:88)\r\n\tat com.tutorialsninja.steps.MyAccountRegisterTestSteps.clickOnMyAccountLink1(MyAccountRegisterTestSteps.java:16)\r\n\tat ✽.When Click on My Account Link(myaccountsregister.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "Click on My Account Link",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Register”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter First Name",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter Last Name",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter Email",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter Telephone",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterTelephone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Enter Password",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Enter Password Confirm",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.enterPasswordConfirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Select Subscribe Yes radio button",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.selectSubscribeYesRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Click on Privacy Policy check box",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnPrivacyPolicyCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Click on Continue button",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Verify the message “Your Account Has Been Created!”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.verifyTheMessageYourAccountHasBeenCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Click on Continue button1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "MyAccountRegisterTestSteps.clickOnContinueButtonOnRegisterPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Click on My Account Link.",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Call the method “selectMyAccountOptions” method and pass the parameter “Logout”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.callTheMethodSelectMyAccountOptionsMethodAndPassTheParameterLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Verify the text “Account Logout”",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.verifyTheTextAccountLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Click on Continue button after Logout",
+            "match": {
+              "location": "MyAccountRegisterTestSteps.clickOnContinueButtonAfterLogout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Accounts Test for Register function",
+    "description": "As user I want to navigate to register page and verify user can register",
+    "id": "my-accounts-test-for-register-function",
+    "keyword": "Feature",
+    "uri": "myaccountsregister.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#@smoke"
+          }
+        ],
+        "line": 7,
+        "name": "User can verify User Should Navigate To Desktops Page Successfully",
+        "description": "",
+        "id": "topmenu-test;user-can-verify-user-should-navigate-to-desktops-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4297700,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:240)\r\n\tat com.tutorialsninja.pages.HomePage.mouseHoverOnDesktopsLinkAndClick(HomePage.java:65)\r\n\tat com.tutorialsninja.steps.TopMenuTestSteps.iMouseHoverOnDesktopsTabAndClick(TopMenuTestSteps.java:21)\r\n\tat ✽.And I Mouse hover on “Desktops” Tab and click(topmenu.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I Mouse hover on “Desktops” Tab and click",
+            "match": {
+              "location": "TopMenuTestSteps.iMouseHoverOnDesktopsTabAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I call selectMenu method and pass the menu \u003d “Show All Desktops”",
+            "match": {
+              "location": "TopMenuTestSteps.iCallSelectMenuMethodAndPassTheMenuShowAllDesktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verify the text ‘Desktops’",
+            "match": {
+              "location": "TopMenuTestSteps.verifyTheTextDesktops()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User can verify User Should Navigate To Laptops And Notebooks Page Successfully",
+        "description": "",
+        "id": "topmenu-test;user-can-verify-user-should-navigate-to-laptops-and-notebooks-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4321500,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:240)\r\n\tat com.tutorialsninja.pages.HomePage.mouseHoverOnLaptopsAndNotebooksLinkAndClick(HomePage.java:69)\r\n\tat com.tutorialsninja.steps.TopMenuTestSteps.iMouseHoverOnLaptopsNotebooksTabAndClick(TopMenuTestSteps.java:39)\r\n\tat ✽.When I Mouse hover on “Laptops \u0026 Notebooks” Tab and click(topmenu.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I Mouse hover on “Laptops \u0026 Notebooks” Tab and click",
+            "match": {
+              "location": "TopMenuTestSteps.iMouseHoverOnLaptopsNotebooksTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I call selectMenu method and pass the menu \u003d “Show All Laptops \u0026 Notebooks”",
+            "match": {
+              "location": "TopMenuTestSteps.iCallSelectMenuMethodAndPassTheMenuShowAllLaptopsNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I can Verify the text ‘Laptops \u0026 Notebooks’",
+            "match": {
+              "location": "TopMenuTestSteps.iCanVerifyTheTextLaptopsNotebooks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User can verify User Should Navigate To Components Page Successfully",
+        "description": "",
+        "id": "topmenu-test;user-can-verify-user-should-navigate-to-components-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3408100,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:240)\r\n\tat com.tutorialsninja.pages.HomePage.mouseHoverOnComponentLinkAndClick(HomePage.java:73)\r\n\tat com.tutorialsninja.steps.TopMenuTestSteps.iMouseHoverOnComponentsTabAndClick(TopMenuTestSteps.java:57)\r\n\tat ✽.When I Mouse hover on “Components” Tab and click(topmenu.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I Mouse hover on “Components” Tab and click",
+            "match": {
+              "location": "TopMenuTestSteps.iMouseHoverOnComponentsTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I call selectMenu method and pass the menu \u003d “Show All Components”",
+            "match": {
+              "location": "TopMenuTestSteps.iCallSelectMenuMethodAndPassTheMenuShowAllComponents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I can verify the text ‘Components’",
+            "match": {
+              "location": "TopMenuTestSteps.iCanVerifyTheTextComponents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TopMenu Test",
+    "description": "As user I want to navigate through top menu of the page",
+    "id": "topmenu-test",
+    "keyword": "Feature",
+    "uri": "topmenu.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
